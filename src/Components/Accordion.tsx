@@ -12,7 +12,7 @@ const Accordion = ({ children, title }: Props) => {
         <div className="w-full mb-5 py-2 px-4 text-primaryFont shadow-[0_3px_10px_rgb(0,0,0,0.2)] cursor-pointer p-20 rounded-lg">
             <button onClick={() => setOpen(!open)} className="gap-3 flex items-center">
                 {/* <MdCorporateFare /> */}
-                <span>{title}</span>
+                <span><b>{title}</b></span>
                 {/* <MdKeyboardArrowRight size={20} className={`transition-all duration-500 ease-in-out ${open ? "rotate-90" : ""}`} /> */}
             </button>
             <div className={`grid overflow-hidden transition-all duration-500 ease-in-out ${

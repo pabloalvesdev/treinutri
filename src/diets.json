@@ -1,0 +1,18 @@
+[
+    {
+        "Title": "Cafe",
+        "Options": [
+            { "Title": "Tapioca", "Description": "70g Goma de Tapioca | 25g queijo | 3 un Ovo" },
+            { "Title": "Misto quente", "Description": "bbbbbbbb" },
+            { "Title": "Pizza", "Description": "aaaaaaaaaa" }
+        ]
+    },
+    {
+        "Title": "Almoco",
+        "Options": [
+            { "Title": "Tapioca", "Description": "aaaaaaaaaa" },
+            { "Title": "Misto quente", "Description": "bbbbbbbb" },
+            { "Title": "Pizza", "Description": "aaaaaaaaaa" }
+        ]
+    }
+]

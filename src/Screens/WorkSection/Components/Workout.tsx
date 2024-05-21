@@ -21,7 +21,8 @@ const Workout = ({item}: Props) => {
     return(
         <div>
             {item.exercises.map(e => <Accordion title={e.title}>
-                <p>{e.description}</p>
+                <p>Descrição: {e.description}</p>
+                <p>Obervações: {e.description}</p>
             </Accordion>)}
             {/* opcoes */}
             {selected && <p className="font-bold text-lg">Movimento: {selected.title}</p>}
